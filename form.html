@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+     <head>
+          <style>
+               input[type="text"], input[type="email"], textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin: 5px 0;
+                    box-sizing: border-box;
+                    background-image: url(resimler/kelebek.jpg);
+                    background-position: right center;
+                    background-size: contain;
+
+               }
+          </style>
+
+     </head>
+     <body>
+          <form>
+               <table>
+                    <tr>
+                         <td>Ad Soyad:</td>
+                         <td><input type="text" name="adsoyad"></td>
+                    </tr>
+                    <tr>
+                         <td>E-mail:</td>
+                         <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                         <td>Mesaj:</td>
+                         <td><textarea name="mesaj" rows="5" cols="30"></textarea></td>
+                    </tr>
+               </table>
+               <input type="submit" value="Gönder">
+               <input type="reset" value="Temizle">
+          </form>
+     </body>
+</html>
